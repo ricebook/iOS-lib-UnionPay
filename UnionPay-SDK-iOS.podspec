@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'UnionPay-SDK-iOS'
-  s.version      = '2.0.0'
+  s.version      = '3.1.1'
   s.summary      = 'ENJOY used SDK for iOS'
 
   s.homepage     = 'https://github.com/ricebook/iOS-lib-UnionPay'
@@ -19,6 +19,6 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'QuartzCore', 'Security'
 
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+  s.xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
 
 end
