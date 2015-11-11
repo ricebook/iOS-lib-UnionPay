@@ -19,6 +19,4 @@ Pod::Spec.new do |s|
 
   s.frameworks = 'QuartzCore', 'Security'
 
-  s.xcconfig = { 'OTHER_LDFLAGS' => '-all_load' }
-
 end
