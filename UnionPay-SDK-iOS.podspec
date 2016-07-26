@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'UnionPay-SDK-iOS'
-  s.version      = '3.1.1'
+  s.version      = '3.3.3'
   s.summary      = 'ENJOY used SDK for iOS'
 
   s.homepage     = 'https://github.com/ricebook/iOS-lib-UnionPay'
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { 'Ricebook' => 'support@ricebook.com' }
 
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '8.0'
   s.source       = { :git => 'https://github.com/ricebook/iOS-lib-UnionPay.git' }
 
 
@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.vendored_library = 'lib/*.a'
 
 
-  s.frameworks = 'QuartzCore', 'Security'
+  s.frameworks = 'CFNetwork', 'SystemConfiguration'
+  s.library = "z"
 
 end
