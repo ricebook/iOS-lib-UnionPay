@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = 'UnionPay-SDK-iOS'
-  s.version      = '3.3.3'
+  s.version      = '3.3.6'
   s.summary      = 'ENJOY used SDK for iOS'
 
   s.homepage     = 'https://github.com/ricebook/iOS-lib-UnionPay'
